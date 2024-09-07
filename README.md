@@ -4,9 +4,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Steps to run the project:
 
+**First fork the repository**
+
 1. **Clone the Repository:**
     ```bash
-    git clone ....get te link from azure repo
+    git clone ....get the link from your forked repository
     ```
 
 2. **Navigate to the Frontend Directory:**
