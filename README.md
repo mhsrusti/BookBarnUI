@@ -2,26 +2,55 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
 
-## Development server
+### Steps to run the project:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. **Clone the Repository:**
+    ```bash
+    git clone ....get te link from azure repo
+    ```
 
-## Code scaffolding
+2. **Navigate to the Frontend Directory:**
+    ```bash
+    cd [directory]
+    ```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. **Install Dependencies:**
+    ```bash
+    npm install
+    ```
 
-## Build
+4. **Start the Angular Development Server:**
+    ```bash
+    ng serve
+    ```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Git Workflow - Pulling and Pushing Guidelines
 
-## Running unit tests
+### Pulling the Latest Changes:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1. Switch to the main branch and pull the latest changes:
+    ```bash
+    git checkout main
+    git pull origin main
+    ```
 
-## Running end-to-end tests
+2. If you are working on a new feature, create a new branch:
+    ```bash
+    git checkout -b feature/your-feature-name
+    ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Pushing Your Changes:
 
-## Further help
+1. Stage and commit your changes:
+    ```bash
+    git add .
+    git commit -m "Your descriptive commit message"
+    ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+2. Push your branch to the remote repository:
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+
+3. Create a Pull Request to merge your feature branch into `main`.
+
